@@ -66,7 +66,7 @@ $(function () {
             $codecheck.html('验证码不能为空');
         }
     })
-
+    //发送验证码
     $codesend.click(function() {
         var  timer, a = 60;
         timer = setInterval(function() {
