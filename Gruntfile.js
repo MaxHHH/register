@@ -11,12 +11,12 @@ module.exports = function (grunt) {
         }
       },
       cssmin: {
-        'dist/index.css': 'index.css'
+        'dist/register.css': 'register.css'
       },
       uglify: {
         release:{
           files: {
-            'dist/index.js': 'index.js'
+            'dist/register.js': 'register.js'
           }
         }
       }
